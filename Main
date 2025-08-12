@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay With Me Counselor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Stay With Me Counselor</h1>
+        <p>Promoting student and parent well-being for safe learning environments</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our mission is to help students and parents in Colombia access well-being tools, guidance, and support for safe, inclusive education.</p>
+    </section>
+
+    <section id="resources">
+        <h2>Resources</h2>
+        <ul>
+            <li>📚 Articles on student mental health</li>
+            <li>💬 Anonymous chat with counselors</li>
+            <li>🎯 Tips for safe school environments</li>
+            <li>🤝 Parent-student activity guides</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Write your question or concern"></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Stay With Me Counselor | Made for student well-being</p>
+    </footer>
+</body>
+</html>
